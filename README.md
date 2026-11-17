@@ -4,20 +4,19 @@ Senior Platform / Site Reliability Engineer working with **AWS, Kubernetes, Terr
 
 I build infrastructure platforms that make changes safe and help engineering teams ship independently. I write about the implementation, failure modes, and trade-offs at [oponomarov.com](https://oponomarov.com/).
 
+## Building DevOps Roast
+
+I started and maintain **[DevOps Roast](https://github.com/devops-roast)**, my independent project for practical infrastructure and developer tooling.
+
+I build tools that keep Atlantis configuration in sync with Terramate stacks and shared documentation consistent across repositories. The organization also contains reusable GitHub Actions, container images, pre-commit hooks, and Renovate presets—the supporting pieces that make the tools easier to maintain and use.
+
+Explore the [organization](https://github.com/devops-roast) or [project website](https://devops-roast.com/). The pinned repositories below highlight two of its tools alongside selected personal projects.
+
 ## Start here
 
 - **[Self-service environments with verified teardown](https://oponomarov.com/case-studies/environments-you-can-create-and-destroy-with-one-command/)** — cell architecture and a Terraform provider that checks cloud cleanup before deleting the cluster and network.
 - **[Reviewable infrastructure changes](https://oponomarov.com/case-studies/making-infrastructure-changes-boring/)** — Terraform plans and Kubernetes previews in pull requests, with controlled applies and GitOps delivery.
 - **[Safe AI tooling for developers](https://oponomarov.com/case-studies/safe-ai-tooling-for-every-developer/)** — an MCP gateway using existing AWS identities and backend-enforced access.
-
-## Selected projects
-
-| Repository | What it does |
-| --- | --- |
-| [dotfiles](https://github.com/shmileee/dotfiles) | A documented, reproducible macOS and Linux workstation built around LazyVim, tmux, Fish, and chezmoi. |
-| [terraform-aws-cloudflared](https://github.com/shmileee/terraform-aws-cloudflared) | A Terraform module that runs a Cloudflare Tunnel on Amazon ECS. |
-| [helm-charts](https://github.com/shmileee/helm-charts) | A Helm chart that redirects image pulls to Amazon ECR using Kyverno policies. |
-| [agent-contextual-notifier](https://github.com/shmileee/agent-contextual-notifier) | Contextual macOS notifications and tmux attention markers for OpenCode and Claude Code. |
 
 ## Follow and get in touch
 
