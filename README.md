@@ -7,17 +7,17 @@ I build infrastructure platforms that make changes safe and help engineering tea
 ## Start here
 
 - **[Self-service environments with verified teardown](https://oponomarov.com/case-studies/environments-you-can-create-and-destroy-with-one-command/)** — cell architecture and a Terraform provider that checks cloud cleanup before deleting the cluster and network.
-- **[Terramate stacks through Atlantis](https://oponomarov.com/blog/posts/generating-atlantis-config-from-terramate-stacks/)** — generating project configuration on each pull request, with runnable examples.
+- **[Reviewable infrastructure changes](https://oponomarov.com/case-studies/making-infrastructure-changes-boring/)** — Terraform plans and Kubernetes previews in pull requests, with controlled applies and GitOps delivery.
 - **[Safe AI tooling for developers](https://oponomarov.com/case-studies/safe-ai-tooling-for-every-developer/)** — an MCP gateway using existing AWS identities and backend-enforced access.
 
-## Code to explore
+## Selected projects
 
-| Repository | What it demonstrates |
+| Repository | What it does |
 | --- | --- |
-| [terramate-atlantis-demo](https://github.com/shmileee/terramate-atlantis-demo) | Generate Atlantis projects from Terramate stacks on each PR. |
-| [terramate-atlantis-autoplan](https://github.com/shmileee/terramate-atlantis-autoplan) | Plan affected stacks without committing generated code. |
-| [terraform-aws-cloudflared](https://github.com/shmileee/terraform-aws-cloudflared) | Provision a Cloudflare Tunnel on ECS with Terraform. |
-| [dotfiles](https://github.com/shmileee/dotfiles) | A documented, reproducible macOS and Linux workstation. |
+| [dotfiles](https://github.com/shmileee/dotfiles) | A documented, reproducible macOS and Linux workstation built around LazyVim, tmux, Fish, and chezmoi. |
+| [terraform-aws-cloudflared](https://github.com/shmileee/terraform-aws-cloudflared) | A Terraform module that runs a Cloudflare Tunnel on Amazon ECS. |
+| [helm-charts](https://github.com/shmileee/helm-charts) | A Helm chart that redirects image pulls to Amazon ECR using Kyverno policies. |
+| [agent-contextual-notifier](https://github.com/shmileee/agent-contextual-notifier) | Contextual macOS notifications and tmux attention markers for OpenCode and Claude Code. |
 
 ## Follow and get in touch
 
